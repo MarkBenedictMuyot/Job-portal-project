@@ -1,4 +1,7 @@
 package com.luv2code.jobportal.repository;
 
-public interface RecruiterProfileRepository {
+import com.luv2code.jobportal.entity.RecruiterProfile;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RecruiterProfileRepository extends JpaRepository<RecruiterProfile,Integer> {
 }

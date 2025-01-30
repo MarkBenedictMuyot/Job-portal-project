@@ -28,6 +28,7 @@ public class Users {
     public Users() {
     }
 
+
     public Users(int userId, String email, String password, Boolean isActive, Date registrationDate, UsersType userTypeId) {
         this.userId = userId;
         this.email = email;
